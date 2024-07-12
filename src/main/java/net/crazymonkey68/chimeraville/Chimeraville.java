@@ -1,6 +1,9 @@
 package net.crazymonkey68.chimeraville;
 
 import com.mojang.logging.LogUtils;
+import net.crazymonkey68.chimeraville.item.ModCreativeModeTabs;
+import net.crazymonkey68.chimeraville.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +32,10 @@ public class Chimeraville
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -45,6 +52,10 @@ public class Chimeraville
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAPPHIRE_LAYLA);
+            event.accept(ModItems.SHRINE_OLEG);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
