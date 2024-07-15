@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "RD",
+    "DR"
+  ],
+  "result": {
+    "count": 4,
+    "item": "chimeraville:red_tile_block"
+  },
+  "show_notification": true
+}

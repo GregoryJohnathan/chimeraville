@@ -1,6 +1,7 @@
 package net.crazymonkey68.chimeraville.item;
 
 import net.crazymonkey68.chimeraville.Chimeraville;
+import net.crazymonkey68.chimeraville.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,7 +21,14 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SAPPHIRE_LAYLA.get());
                         pOutput.accept(ModItems.SHRINE_OLEG.get());
-                        pOutput.accept(Items.DIAMOND);
+                        pOutput.accept(ModItems.CLAW_DEMIR.get());
+                        pOutput.accept(ModItems.RAW_LION_MEAT.get());
+                        pOutput.accept(ModItems.COOKED_LION_MEAT.get());
+
+                        pOutput.accept(ModBlocks.RED_TILE_BLOCK.get());
+                        pOutput.accept(ModBlocks.LION_SQUID_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.VOCAL_BLOCK.get());
 
                     })
                     .build());

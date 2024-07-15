@@ -1,6 +1,7 @@
 package net.crazymonkey68.chimeraville;
 
 import com.mojang.logging.LogUtils;
+import net.crazymonkey68.chimeraville.block.ModBlocks;
 import net.crazymonkey68.chimeraville.item.ModCreativeModeTabs;
 import net.crazymonkey68.chimeraville.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -35,6 +36,7 @@ public class Chimeraville
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

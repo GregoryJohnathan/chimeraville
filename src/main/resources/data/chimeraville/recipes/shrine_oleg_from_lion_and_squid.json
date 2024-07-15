@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "chimeraville:lion_squid_block"
+    }
+  },
+  "pattern": [
+    "###",
+    " # ",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "chimeraville:shrine_oleg"
+  },
+  "show_notification": true
+}

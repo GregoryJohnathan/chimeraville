@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 700,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "chimeraville:raw_lion_meat"
+  },
+  "result": "chimeraville:cooked_lion_meat"
+}

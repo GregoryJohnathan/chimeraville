@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 120,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "chimeraville:raw_lion_meat"
+  },
+  "result": "chimeraville:cooked_lion_meat"
+}
