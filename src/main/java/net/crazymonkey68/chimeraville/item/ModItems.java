@@ -1,6 +1,7 @@
 package net.crazymonkey68.chimeraville.item;
 
 import net.crazymonkey68.chimeraville.Chimeraville;
+import net.crazymonkey68.chimeraville.block.custom.FuelItem;
 import net.crazymonkey68.chimeraville.item.custom.ModFoods;
 import net.crazymonkey68.chimeraville.item.custom.SapphireLaylaItem;
 import net.crazymonkey68.chimeraville.item.custom.ShrineOlegItem;
@@ -31,6 +32,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> COOKED_LION_MEAT = ITEMS.register("cooked_lion_meat",
             () -> new Item(new Item.Properties().food(ModFoods.COOKED_LION_MEAT)));
+
+    public static final RegistryObject<Item> PROPANE = ITEMS.register("propane",
+            () -> new FuelItem(new Item.Properties().stacksTo(1), 64000));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

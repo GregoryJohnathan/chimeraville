@@ -22,8 +22,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SAPPHIRE_LAYLA.get());
                         pOutput.accept(ModItems.SHRINE_OLEG.get());
                         pOutput.accept(ModItems.CLAW_DEMIR.get());
+
                         pOutput.accept(ModItems.RAW_LION_MEAT.get());
                         pOutput.accept(ModItems.COOKED_LION_MEAT.get());
+
+                        pOutput.accept(ModItems.PROPANE.get());
 
                         pOutput.accept(ModBlocks.RED_TILE_BLOCK.get());
                         pOutput.accept(ModBlocks.LION_SQUID_BLOCK.get());

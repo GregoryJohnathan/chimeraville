@@ -1,14 +1,32 @@
 {
   "item.chimeraville.sapphire_layla" : "Sapphire Layla",
+  "tooltip.chimeraville.sapphire_layla.tooltip" : "Finds valuable minerals directly underground",
+
   "item.chimeraville.shrine_oleg" : "Shrine Oleg",
+  "tooltip.chimeraville.shrine_oleg.tooltip" : "Drills large holes through weaker blocks",
+
   "item.chimeraville.claw_demir" : "Claw Demir",
+
+
 
   "item.chimeraville.raw_lion_meat" : "Raw Lion Meat",
   "item.chimeraville.cooked_lion_meat" : "Cooked Lion Meat",
 
+
+
+  "item.chimeraville.propane" : "Propane",
+
+
+
   "block.chimeraville.red_tile_block": "Red Tile Block",
   "block.chimeraville.lion_squid_block": "Lion Squid Block",
-  "block.chimeraville.vocal_block": "Vocal Block",
 
-  "creativetab.chimeraville_tab": "Chimeraville Tab"
+
+
+  "block.chimeraville.vocal_block": "Vocal Block",
+  "tooltip.chimeraville.vocal_block.tooltip" : "It wails for more",
+
+
+
+  "creativetab.chimeraville_tab": "Chimeraville"
 }
