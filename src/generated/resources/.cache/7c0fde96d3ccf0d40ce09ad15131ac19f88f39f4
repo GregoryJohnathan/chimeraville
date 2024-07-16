@@ -1,0 +1,10 @@
+// 1.20.1	2024-07-15T23:59:39.4135323	Block States: chimeraville
+130f0e36ac365651686e8b6744ae661f22ba8a60 assets/chimeraville/blockstates/lion_squid_block.json
+e04a17c3664bf6af9add8a5ff26271dfba6310ab assets/chimeraville/blockstates/red_tile_block.json
+e145972553bbe14b81af45dcbd0de16d29c54b32 assets/chimeraville/blockstates/vocal_block.json
+4d4f368643390aae82eab3bfabdf7088300fa7d3 assets/chimeraville/models/block/lion_squid_block.json
+6b8382bcfcce5e21ff6ba1884e88d6c8db3cc1a3 assets/chimeraville/models/block/red_tile_block.json
+12ab2beb0f01e5ef3c64fc1863804870e99094a3 assets/chimeraville/models/block/vocal_block.json
+a4c8bebb0568ee6df518ce3f2ca08e239a6f2bd2 assets/chimeraville/models/item/lion_squid_block.json
+71f95ab89e4be6508e172f8ca0d50af27eac916b assets/chimeraville/models/item/red_tile_block.json
+08feebed2cda8e4d55d7357731b52d274e95f009 assets/chimeraville/models/item/vocal_block.json

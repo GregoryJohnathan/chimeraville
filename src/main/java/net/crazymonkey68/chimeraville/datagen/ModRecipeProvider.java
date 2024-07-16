@@ -19,6 +19,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
+
         cookRecipes(consumer, "minecraft:smelting",
                 SimpleCookingSerializer.SMELTING_RECIPE, 250);
 
@@ -27,6 +28,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         cookRecipes(consumer, "minecraft:smoking",
                 SimpleCookingSerializer.SMOKING_RECIPE, 120);
+
+
+
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_TILE_BLOCK.get(), 4)
                 .pattern("RD")
@@ -67,7 +72,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     protected static void simpleCookingRecipe(Consumer<FinishedRecipe> pFinishedRecipeConsumer, String pCookingMethod, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer, int pCookingTime, ItemLike pIngredient, ItemLike pResult, float pExperience) {
         SimpleCookingRecipeBuilder var10000 = SimpleCookingRecipeBuilder.generic(Ingredient.of(new ItemLike[]{pIngredient}), RecipeCategory.FOOD, pResult, pExperience, pCookingTime, pCookingSerializer).unlockedBy(getHasName(pIngredient), has(pIngredient));
-        String var10002 = Chimeraville.MOD_ID + ":" + getItemName(pResult);
+        String var10002 = getItemName(pResult);
         var10000.save(pFinishedRecipeConsumer, var10002 + "_from_" + pCookingMethod);
     }
 }
